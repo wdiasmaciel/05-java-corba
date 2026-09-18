@@ -40,7 +40,7 @@ idlj -version
 
 ```bash
 export JAVA_HOME="$(sdk home java 8.0.504-amzn)"; export PATH="$JAVA_HOME/bin:$PATH"; hash -r
-idlj -fclient -fserver -oldImplBase Cumprimentar.idl
+idlj -fclient -fserver -oldImplBase Cumprimentador.idl
 ```
 
 ---
