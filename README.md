@@ -49,7 +49,7 @@ idlj -fclient -fserver -oldImplBase Cumprimentador.idl
 
 ```bash
 export JAVA_HOME="$(sdk home java 8.0.504-amzn)"; export PATH="$JAVA_HOME/bin:$PATH"; hash -r
-javac *.java CumprimentarApp/*.java
+javac *.java CumprimentadorApp/*.java
 ```
 
 ---
