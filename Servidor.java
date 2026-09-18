@@ -1,6 +1,6 @@
 // Arquivo Servidor.java
 
-import CumprimentarApp.*;
+import CumprimentadorApp.*;
 import org.omg.CosNaming.*;
 import org.omg.CosNaming.NamingContextPackage.*;
 import org.omg.CORBA.*;

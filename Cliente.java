@@ -1,6 +1,6 @@
 // Arquivo Cliente.java
 
-import CumprimentarApp.*;
+import CumprimentadorApp.*;
 import org.omg.CosNaming.*;
 import org.omg.CORBA.*;
 
