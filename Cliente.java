@@ -15,8 +15,13 @@ public class Cliente {
        */
       ORB orb = ORB.init(args, null);
 
-      // Gera o root naming context:
-      org.omg.CORBA.Object objeto = orb.resolve_initial_references("ServidorDeNome");
+      /* 
+       * Gera o root naming context:
+       * O método abaixo não busca qualquer nome arbitrário do projeto. 
+       * Ele consulta uma chave interna do ORB e a chave correta do serviço 
+       * de nomes CORBA é: "NameService".
+       */
+      org.omg.CORBA.Object objeto = orb.resolve_initial_references("NameService");
       NamingContext contextoNome = NamingContextHelper.narrow(objeto);
 
       /*
